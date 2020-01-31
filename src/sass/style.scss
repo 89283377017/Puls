@@ -1,0 +1,16 @@
+//Применение шрифта всему тексту
+*{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+//Ширина контента 950px
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'base/variables'; //Подключение переменных
+@import 'blocks/promo';   //Подключение сукции промо
+@import 'blocks/header';  //Подключение шапки сайта
+@import 'blocks/button';  //Подключение кнопки
+
