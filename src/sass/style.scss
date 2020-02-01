@@ -10,7 +10,12 @@
 }
 
 @import 'base/variables'; //Подключение переменных
-@import 'blocks/promo';   //Подключение сукции промо
+@import 'blocks/promo';   //Подключение первой секции "Promo"
 @import 'blocks/header';  //Подключение шапки сайта
 @import 'blocks/button';  //Подключение кнопки
+@import 'blocks/advantages'; //Подключение второй секции "Преимущества"
+@import 'blocks/consultation'; //Подключение третей секции "Консультация"
+@import 'blocks/forms'; //Подключение формы
+@import 'base/media'; //Подключение медиазапросов
+
 

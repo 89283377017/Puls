@@ -1,0 +1,168 @@
+@media ( max-width:  1200px){
+
+}
+@media ( max-width:  991px){
+    .promo{
+        background-position-x: -100px;
+    }
+    .consultation{
+        &__header{
+            text-align: center;
+            font-size: 30px;
+        }
+        &__desc{
+            text-align: center;
+        }
+        .feed-form{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+@media ( max-width:  767px){
+    //___________________________________________________Шапка сайта
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+    //___________________________________________________Первая секция
+    .promo{
+        min-height: 610px;
+        padding-bottom: 40px;
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    //___________________________________________________Вторая секция
+    .advantages{
+        padding-bottom: 0;
+        &__supheader{
+            font-size: 30px;
+        }
+        &__item{
+            margin-right: 20px;
+            
+            &:last-child{
+                margin-right: 0;
+            }
+            img{
+                width: 60px; 
+            }
+        }
+        &__subheader{
+            font-size: 17px;
+            margin-top: 20px;
+        }
+        &__desc{
+            font-size: 13px;
+            margin-top: 10px;
+        }
+    }
+    .consultation{
+        &__header{
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+
+}
+
+@media ( max-width:  580px){
+    //_______________________________________________________Шапка сайта
+    .header{
+        &__logo{
+            width: 200px;
+        }
+    }
+    //_______________________________________________________Первая секция
+    .promo{
+        &__header{
+            font-size: 40px;
+            text-align: center;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+        &__icon{
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    //______________________________________________________Вторая секция
+    .advantages{
+        padding: 40px 0 30px 0;
+        &__supheader{
+            font-size: 25px;
+        }
+        &__items{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        &__item{
+            margin-right: 0;
+            margin-top: 30px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+    .consultation{
+        background-position-x: -1000px;
+        &__header{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &__desc{
+            font-size: 18px;
+        }
+    }
+}
+
+@media ( max-width:  380px){
+    //______________________________________________________Шапка сайта
+    .header{
+        display: flex;
+        flex-direction: column;
+        &__logo{
+            width: 300px;
+        }
+        &__contacts{
+            display: none;
+        }
+    }
+    //_____________________________________________________Первая секция
+    .promo{
+        background-position-x: -200px;
+        padding: 40px 0 30px 0;
+        &__header{
+            font-size: 25px;
+        }
+        &__subheader{
+            font-size: 13px;
+            margin-top: 5px;
+        }
+        &__icon{
+            font-size: 13px;
+            height: 80px;
+            img{
+                width: 37px;
+            }
+        }
+    }
+    .consultation{
+        padding: 40px 0 80px 0;
+        min-height: 100px;
+        &__header{
+            font-size: 17px;
+            line-height: 25px;
+        }
+        &__desc{
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+}
