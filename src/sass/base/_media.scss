@@ -39,6 +39,24 @@
             margin-right: 10px;
         }
     }
+    //__________________________________________________Секция "Отзывы"
+    .reviews{
+        &__content{
+            margin-left: 30px;
+        }
+        &__item{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    //________________________________________________Подвал сайта
+    .footer{
+        &__info{
+            width: 400px;
+            height: 220px;
+            padding: 30px 0 20px 0;
+        }
+    }
 }
 @media ( max-width:  767px){
     //___________________________________________________Шапка сайта
@@ -112,6 +130,36 @@
         }
         .catalog-item{
             width: 280px;
+        }
+    }
+    //______________________________________________________Секция "Отзывы"
+    .reviews{
+        &__item{
+            img{
+                width: 140px;
+                height: auto;
+            }
+        }
+    }
+    //_________________________________________Подвал сайта
+    .footer{
+        &__info{
+            width: 350px;
+            height: 180px;
+        }
+        &__address{
+            font-size: 17px;
+        }
+        &__phone{
+            font-size: 19px;
+            margin-top: 20px;
+        }
+        &__social{
+            margin-top: 30px;
+        }
+        &__social-item{
+            width: 40px;
+            height: 40px;
         }
     }
 }
@@ -193,6 +241,44 @@
             line-height: 30px;
         }
     }
+    //_______________________________________________Секция "Отзывы"
+    .reviews{
+        &__item{
+           flex-direction: column;
+           align-items: center;
+        }
+        &__content{
+            width: 100%;
+            margin-left: 0;
+        }
+        &__supheader{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 23px;
+        }
+        &__subheader{
+            text-align: center;
+        }
+        &__review{
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: 15px;
+        }
+    }
+    //_____________________________________________Шапка сайта
+    .footer{
+        &__info{
+            padding: 20px 0;
+            height: 155px;
+            width: 300px;
+        }
+        &__phone{
+            margin-top: 15px;
+        }
+        &__social{
+            margin-top: 20px;
+        }
+    }
 }
 
 @media ( max-width:  380px){
@@ -267,6 +353,17 @@
             height: 35px;
             font-size: 15px;
             line-height: 32px;
+        }
+    }
+    .reviews{
+        &__header{
+            font-size: 25px;
+        }
+    }
+    //___________________________________________________Подвал сайта
+    .footer{
+        &__info{
+            width: 100%;
         }
     }
 }

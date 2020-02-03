@@ -2,7 +2,15 @@
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
-
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
 //Ширина контента 950px
 .container{
     max-width: 950px;
@@ -18,7 +26,6 @@
 @import 'blocks/forms'; //Подключение формы
 @import 'blocks/carousel'; //Подключение слайдера
 @import 'blocks/catalog'; //Подключение четвертой секции "Каталог"
+@import 'blocks/reviews'; //Подключение пятой секции "Отзывы"
+@import 'blocks/footer'; //Подключение подвала 
 @import 'base/media'; //Подключение медиазапросов
-
-
-
