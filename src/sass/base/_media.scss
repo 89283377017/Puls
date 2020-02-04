@@ -62,7 +62,14 @@
         width: 350px;
         min-height: 350px;
         padding: 28px 20px 30px 20px;
+        .feed-form{
+            margin-top: 15px;
+            input{
+                margin-top: 5px;
+            }
+        }
     }
+
 }
 @media ( max-width:  767px){
     //___________________________________________________Шапка сайта
@@ -181,16 +188,20 @@
         }
         .feed-form{
             width: 250px;
-            margin: 20px auto 0 auto;
+            margin: 10px auto 0 auto;
             input{
                 font-size: 14px;
                 height: 40px;
             }
 
         }
+        label.error{
+            font-size: 11px;
+        }
     }
     .button_submit{
         margin: 0 auto;
+        margin-top: 10px;
         width: 85%;
         height: 40px;
         font-size: 14px;
@@ -336,6 +347,7 @@
     }
     .button_submit{
         margin: 0 auto;
+        margin-top: 10px;
         width: 90%;
         height: 40px;
         font-size: 12px;
