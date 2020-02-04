@@ -57,6 +57,12 @@
             padding: 30px 0 20px 0;
         }
     }
+    //__________________________________________________Модальные окна
+    .modal{
+        width: 350px;
+        min-height: 350px;
+        padding: 28px 20px 30px 20px;
+    }
 }
 @media ( max-width:  767px){
     //___________________________________________________Шапка сайта
@@ -161,6 +167,33 @@
             width: 40px;
             height: 40px;
         }
+    }
+    //________________________________________________________Модальные окна
+    .modal{
+        width: 290px;
+        min-height: 330px;
+        padding: 28px 20px 30px 20px;
+        &__supheader{
+            font-size: 15px;
+        }
+        &__subheader{
+            font-size: 12px;
+        }
+        .feed-form{
+            width: 250px;
+            margin: 20px auto 0 auto;
+            input{
+                font-size: 14px;
+                height: 40px;
+            }
+
+        }
+    }
+    .button_submit{
+        margin: 0 auto;
+        width: 85%;
+        height: 40px;
+        font-size: 14px;
     }
 }
 
@@ -278,6 +311,34 @@
         &__social{
             margin-top: 20px;
         }
+    }
+    //_______________________________________________________Модальные окна
+    .modal{
+        width: 220px;
+        min-height: 310px;
+        padding: 20px 10px 20px 10px;
+        &__supheader{
+            font-size: 15px;
+            line-height: 18px;
+        }
+        &__subheader{
+            font-size: 12px;
+        }
+        .feed-form{
+            width: 100%;
+            margin: 20px auto 0 auto;
+            input{
+                font-size: 14px;
+                height: 40px;
+            }
+
+        }
+    }
+    .button_submit{
+        margin: 0 auto;
+        width: 90%;
+        height: 40px;
+        font-size: 12px;
     }
 }
 
