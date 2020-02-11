@@ -206,6 +206,21 @@
         height: 40px;
         font-size: 14px;
     }
+    .scrol{
+        top: 30px;
+        right: 30px;
+        width: 40px;
+        color: transparent;
+        cursor: pointer;
+        img{
+            width: 100%;
+        }
+        &:hover{
+            top: 30px;
+            right: 30px;
+            width: 40px;
+        }
+    }
 }
 
 @media ( max-width:  580px){
@@ -352,6 +367,22 @@
         height: 40px;
         font-size: 12px;
     }
+
+    .scrol{
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        color: transparent;
+        cursor: pointer;
+        img{
+            width: 100%;
+        }
+        &:hover{
+            top: 20px;
+            right: 20px;
+            width: 40px;
+        }
+    }
 }
 
 @media ( max-width:  380px){
@@ -437,6 +468,21 @@
     .footer{
         &__info{
             width: 100%;
+        }
+    }
+    .scrol{
+        top: 20px;
+        right: 10px;
+        width: 37px;
+        color: transparent;
+        cursor: pointer;
+        img{
+            width: 100%;
+        }
+        &:hover{
+            top: 20px;
+            right: 10px;
+            width: 37px;
         }
     }
 }

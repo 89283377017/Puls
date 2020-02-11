@@ -68,5 +68,23 @@ $(document).ready(function(){
     valideForms('#consultation-form');
     valideForms('#consultation form');
     valideForms('#order form');
+
+    $('input[name = phone]').mask('+7 (999) 999-99-99');
+
+    $(window).scroll(function(){
+        if($(this).scrollTop()>1600){
+            $('.scrol').fadeIn();
+        }else{
+            $('.scrol').fadeOut();
+        }
+    });
+
+    $("a[href^='#']").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    }); 
+
+    new WOW().init();
 });
 

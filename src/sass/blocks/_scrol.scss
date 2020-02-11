@@ -1,0 +1,17 @@
+.scrol{
+    display: block;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 50px;
+    color: transparent;
+    cursor: pointer;
+    img{
+        width: 100%;
+    }
+    &:hover{
+        width: 56px;
+        right: 37px;
+        top: 39px;
+    }
+}

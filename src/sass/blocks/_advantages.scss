@@ -32,4 +32,7 @@
             text-decoration: underline;
         }
     }
+    &_animated{
+        animation: heartbeat 2s ease infinite;
+    }
 }
